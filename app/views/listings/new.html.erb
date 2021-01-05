@@ -1,15 +1,12 @@
 <div class="container mt-5">
 
     <%= simple_form_for(@listing) do |f| %>
-    <%= f.input :title, label: "Brand or model", placeholder: "e.g.: Nissan Pickup" %>
-    <%= f.input :category, label: "Brand or model", placeholder: "e.g.: Nissan Pickup" %>
-    <%= f.input :price, label: "Brand or model", placeholder: "e.g.: Nissan Pickup" %>
-    <%= f.input :size, label: "Brand or model", placeholder: "e.g.: Nissan Pickup" %>
-    <%= f.input :description, label: "Brand or model", placeholder: "e.g.: Nissan Pickup" %>
-        <%= f.input :photos, as: :file, input_html: { multiple: true } %>
-
-    <div class="btn btn-success">
-    <%= f.button :submit %>
-    </div>
+    <%= f.input :title, label: "Име на продукт", placeholder: "пр.: Блуза" %>
+    <%= f.input :category, label: "Категорија", placeholder: "пр.: Џемпери" %>
+    <%= f.input :price, label: "Цена", placeholder: "пр.: 1000 ден" %>
+    <%= f.input :size, label: "Големина", placeholder: "пр.: S/M/L/XL/XXL" %>
+    <%= f.input :description, label: "Опис", placeholder: "пр.: Еднобојна, струкирана ролка во кафеава боја" %>
+    <%= f.input :photos, as: :file, input_html: { multiple: true } %>
+    <%= submit_tag "Креирај Оглас", class: "btn btn-lg btn-success" %>
 <% end %>
 </div>
