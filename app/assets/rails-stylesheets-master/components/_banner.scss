@@ -2,7 +2,6 @@
     height: 100vh;
     display: flex;
     align-items: center;
-    background-image: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), image-url("131063592_164289708716018_9148318178629994531_o.jpg");
     background-size: cover;
     background-position: center;
     background-color:$text-gray;
@@ -40,6 +39,21 @@
     }
   }
   
+  .container-home{
+    float: left;
+    width: 50%;
+    padding-top:50px;
+  }
+
+  .image-home{
+    float: right;
+    width: 50%;
+    background-image: url();
+    background-size: 500px;
+    width: 500px;
+    height: 600px;
+    margin-left:20px;
+  }
   // media queries //
   
   @media (min-width:500px) {
