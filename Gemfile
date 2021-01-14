@@ -59,5 +59,8 @@ gem 'font-awesome-sass', '~> 5.6.1'
 gem 'simple_form'
 
 
-#Cloudinary
+#Cloudinary data protection
 gem 'dotenv-rails', groups: [:development, :test]
+
+#Cloudinary 
+gem 'cloudinary', '~> 1.16.0'
