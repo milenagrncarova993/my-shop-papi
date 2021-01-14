@@ -5,6 +5,11 @@
     background-size: cover;
     background-position: center;
     background-color:$text-gray;
+    padding: 15vh 6vw;
+    margin-top: 100px;
+    margin-bottom:100px;
+
+    
     .banner-content {
       padding-left: 12%;
       padding-bottom: 10%;
@@ -25,7 +30,6 @@
       font-size: 25px;
       width: 300px;
       height: 150px;
-      margin-top: 3rem;
       text-align: left;
     }
     .btn {
@@ -43,16 +47,18 @@
     float: left;
     width: 50%;
     padding-top:50px;
+    margin-left:10px;
   }
 
   .image-home{
     float: right;
     width: 50%;
     background-image: url();
-    background-size: 500px;
+    background-size: 535px;
     width: 500px;
     height: 600px;
-    margin-left:20px;
+    margin-left:10px;
+    margin-top:50px;
   }
   // media queries //
   
