@@ -1,6 +1,6 @@
 class ListingsController < ApplicationController
   def index #read all
-    @listing = Listing.all
+    @listings = Listing.all
     end
 
   def show
@@ -13,11 +13,8 @@ class ListingsController < ApplicationController
   
   def create
     @listing = Listing.new(listing_params)
-    if @listing.save
-    redirect_to @lisitng
-    else
-    render :new
-  end
+    @listing.save
+    redirect_to listings_path
   end
 
   private
