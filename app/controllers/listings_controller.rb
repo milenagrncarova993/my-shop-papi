@@ -14,7 +14,7 @@ class ListingsController < ApplicationController
   def create
     @listing = Listing.new(listing_params)
     @listing.save
-    redirect_to listings_path
+    redirect_to listings_path(@listing)
   end
 
   private
