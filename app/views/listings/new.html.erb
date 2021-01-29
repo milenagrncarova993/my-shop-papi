@@ -6,7 +6,7 @@
     <%= f.input :price, label: "Цена", placeholder: "пр.: 1000 ден" %>
     <%= f.input :size, label: "Големина", placeholder: "пр.: S/M/L/XL/XXL" %>
     <%= f.input :description, label: "Опис", placeholder: "пр.: Еднобојна, струкирана ролка во кафеава боја" %>
-    <%= f.input :photos, as: :file, input_html: { multiple: true } %>
+    <%= f.input :photo, as: :file %>
     <%= submit_tag "Креирај Оглас", class: "btn btn-lg btn-success" %>
 <% end %>
 </div>
